@@ -8,7 +8,7 @@ on:
     branches:
       - main
 
-Jobs:
+jobs:
   build:
     runs-on: ubuntu-latest
 
