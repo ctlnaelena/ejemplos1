@@ -6,7 +6,7 @@ WORKDIR /app
 
 COPY pom.xml .
 COPY src /app/src
-COPY Wallet_N72BZHZWYZGTE7OH /app/wallet
+COPY Wallet_N72BZHZWYZGTE7OH .wallet
 
 ENV TNS_ADMIN=/app/wallet
 
